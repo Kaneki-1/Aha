@@ -113,7 +113,7 @@ h1 {
    color: black;
 }
 
-@media screen and (max-width:780px) {
+@media (max-width:780px) and (min-width:480px) {
    
    .body {
       width: 100%;
@@ -150,4 +150,35 @@ h1 {
    .item4,.item5{
       display: none;
    }
+}
+
+@media (max-width:480px) and (min-width:100px) {
+   .content{
+      margin-top: 200px;
+   }
+}
+
+h1{
+   font-size: 3rem;
+}
+
+.span{
+   font-size: 2.5rem;
+   margin-right: 70px;
+}
+
+.buttons{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.btn{
+   font-size: 1rem;
+   margin: 10px;
+}
+
+.item4,.item5{
+   display: none;
+}
 }
