@@ -70,7 +70,7 @@ h1 {
 .span {
    display: flex;
    justify-content: end;
-   margin-right: 30px;
+   margin-right: 80px;
    line-height: 1.5rem;
    font-size: 4rem;
    
@@ -113,7 +113,7 @@ h1 {
    color: black;
 }
 
-@media screen and (max-width:580px) {
+@media screen and (max-width:780px) {
    
    .body {
       width: 100%;
@@ -136,10 +136,10 @@ h1 {
 
    .span{
       font-size: 2rem;
-      margin-right: 75px;
+      margin-right: 95px;
    }
    .content{
-      margin-top: 200px;
+      margin-top: 130px;
    }
 
    nav ul{
