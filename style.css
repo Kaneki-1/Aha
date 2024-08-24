@@ -123,7 +123,7 @@ h1 {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      margin-top: 170px;
+      margin-top: 180px;
    }
 
    .btn{
@@ -135,8 +135,8 @@ h1 {
    }
 
    .span{
-      font-size: 1.8rem;
-      margin-right: 35px;
+      font-size: 2rem;
+      margin-right: 75px;
    }
    .content{
       margin-top: 200px;
